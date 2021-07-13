@@ -1,0 +1,95 @@
+{
+    "handtodice.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:16:51",
+            "keyStrokeInfo": "\r\n ",
+            "position": "9,23"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:16:52",
+            "keyStrokeInfo": "firstdigit= hand // 100\r\n    seconddigit=(hand%100) // 10\r\n    thirddigit=(hand%10) \r\n    return firstdigit,seconddigit,thirddigit",
+            "position": "10,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:16:55",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:16:55",
+            "keyStrokeInfo": "",
+            "position": "9,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:16:56",
+            "keyStrokeInfo": "\r\n # ",
+            "position": "9,23"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:16:57",
+            "keyStrokeInfo": "",
+            "position": "8,22"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:17:00",
+            "keyStrokeInfo": "",
+            "position": "9,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:17:01",
+            "keyStrokeInfo": "",
+            "position": "9,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:17:03",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:17:06",
+            "keyStrokeInfo": "",
+            "position": "8,23"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:17:10",
+            "keyStrokeInfo": "",
+            "position": "8,23"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:17:13",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "8,22"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:17:18",
+            "keyStrokeInfo": "",
+            "position": "13,1"
+        }
+    ]
+}
