@@ -1,0 +1,32 @@
+{
+    "dicetoorderedhand.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:34:09",
+            "keyStrokeInfo": "\r\n ",
+            "position": "14,23"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:34:10",
+            "keyStrokeInfo": "    largest=max(a,b,c)\r\n    smallest=min(a,b,c)\r\n    middle= (a + b + c)- largest-smallest\r\n    return largest*100+middle*10+smallest",
+            "position": "15,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:34:14",
+            "keyStrokeInfo": "",
+            "position": "15,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 09:34:20",
+            "keyStrokeInfo": "",
+            "position": "19,1"
+        }
+    ]
+}
