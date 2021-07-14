@@ -30,23 +30,44 @@ American City
 Asian City - Country
 Asian City - Country"""
 
-def sortUSA():
-	'''Return all the cities in the USA in alphabetical order'''
-	return sorted(locations['North America']['USA'])
-	
 
+def sortUSA():
+    '''Return all the cities in the USA in alphabetical order'''
+    return sorted(locations['North America']['USA'])
+    
+    
 def alphaAsia():
-	'''Return all the cities in Asia continent in alphabetical order'''
-	cities = list()
-	for i in locations['Asia']:
-		cities.extend([ j+' - '+i for j in locations['Asia'][i]])
-	return sorted(cities)
-	
+    '''Return all the cities in Asia continent in alphabetical order'''
+    cities = list()
+    for i in locations['Asia']:
+        cities.extend([ j+' - '+i for j in locations['Asia'][i]])
+    return sorted(cities)
 
 # Note: Check for test cases to understand the output format.
-locations = {'North America': {'USA': ['Mountain View','Atlanta']},'Asia':{'India':['Banglore'],'China':['Shanghai']},'Africa':{'Egypt':['Cairo']}}
-# locations = {'North America': {'USA': ['Mountain View']}}
-# locations={'Asia':{'India' : ['Bangalore']}}
-# locations={'North America': {'USA': ['Atlanta']}}
-# locations={'Asia':{'China' : ['Shanghai']}}
-# locations={'Atlanta':{'Atlanta':['Cairo']}}
+locations = {'North America': {'USA': ['Mountain View','Atlanta']},'Asia':{'India':['Bangalore'],'China':['Shanghai']},'Africa':{'Egypt':['Cairo']}  }
+
+"""Bangalore (India, Asia)
+Atlanta (USA, North America)
+Cairo (Egypt, Africa)
+Shanghai (China, Asia)"""
+
+# def sortUSA():
+# 	'''Return all the cities in the USA in alphabetical order'''
+# 	return sorted(locations['North America']['USA'])
+	
+
+# def alphaAsia():
+# 	'''Return all the cities in Asia continent in alphabetical order'''
+# 	cities = list()
+# 	for i in locations['Asia']:
+# 		cities.extend([ j+' - '+i for j in locations['Asia'][i]])
+# 	return sorted(cities)
+	
+
+# # Note: Check for test cases to understand the output format.
+# locations = {'North America': {'USA': ['Mountain View','Atlanta']},'Asia':{'India':['Banglore'],'China':['Shanghai']},'Africa':{'Egypt':['Cairo']}}
+# # locations = {'North America': {'USA': ['Mountain View']}}
+# # locations={'Asia':{'India' : ['Bangalore']}}
+# # locations={'North America': {'USA': ['Atlanta']}}
+# # locations={'Asia':{'China' : ['Shanghai']}}
+# # locations={'Atlanta':{'Atlanta':['Cairo']}}
