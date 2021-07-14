@@ -1,0 +1,32 @@
+{
+    "eggcartons.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 10:20:45",
+            "keyStrokeInfo": "\r\n ",
+            "position": "8,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 10:20:48",
+            "keyStrokeInfo": "\\",
+            "position": "7,26"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 10:20:49",
+            "keyStrokeInfo": "",
+            "position": "7,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 10:20:49",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "7,26"
+        }
+    ]
+}
