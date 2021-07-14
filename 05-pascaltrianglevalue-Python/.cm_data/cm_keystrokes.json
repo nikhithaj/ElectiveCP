@@ -1,0 +1,102 @@
+{
+    "pascaltrianglevalue.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:34:30",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "11,39"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:37",
+            "keyStrokeInfo": "def fun_pascaltrianglevalue(row, col):\r\n\tif row < 0 or col < 0:\r\n\t\treturn None\r\n\t\r\n\telif col <= row :\r\n\t\treturn (math.factorial(row) / (math.factorial(col) * math.factorial(row - col)))\r\n\r\n\telif row<= col:\r\n\t\treturn 0\r\n\telse:\r\n\t\treturn None",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:40",
+            "keyStrokeInfo": "",
+            "position": "12,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:52",
+            "keyStrokeInfo": "i",
+            "position": "10,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:52",
+            "keyStrokeInfo": "m",
+            "position": "10,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:52",
+            "keyStrokeInfo": "p",
+            "position": "10,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:52",
+            "keyStrokeInfo": "o",
+            "position": "10,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:53",
+            "keyStrokeInfo": "r",
+            "position": "10,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:53",
+            "keyStrokeInfo": "t",
+            "position": "10,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:53",
+            "keyStrokeInfo": " ",
+            "position": "10,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:54",
+            "keyStrokeInfo": "m",
+            "position": "10,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:54",
+            "keyStrokeInfo": "a",
+            "position": "10,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:54",
+            "keyStrokeInfo": "t",
+            "position": "10,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:55",
+            "keyStrokeInfo": "h",
+            "position": "10,11"
+        }
+    ]
+}
