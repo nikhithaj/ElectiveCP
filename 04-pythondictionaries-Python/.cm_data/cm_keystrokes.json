@@ -923,6 +923,13 @@
             "keyStrokeTimeStamp": "Wed Jul 14 2021 12:40:27",
             "keyStrokeInfo": "def sortUSA():\r\n    '''Return all the cities in the USA in alphabetical order'''\r\n    return sorted(locations['North America']['USA'])\r\n    \r\n    \r\ndef alphaAsia():\r\n    '''Return all the cities in Asia continent in alphabetical order'''\r\n    cities = list()\r\n    for i in locations['Asia']:\r\n        cities.extend([ j+' - '+i for j in locations['Asia'][i]])\r\n    return sorted(cities)\r\n\r\n# Note: Check for test cases to understand the output format.\r\nlocations = {'North America': {'USA': ['Mountain View','Atlanta']},'Asia':{'India':['Bangalore'],'China':['Shanghai']},'Africa':{'Egypt':['Cairo']}  }\r\n\r\n\"\"\"Bangalore (India, Asia)\r\nAtlanta (USA, North America)\r\nCairo (Egypt, Africa)\r\nShanghai (China, Asia)\"\"\"",
             "position": "34,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 20,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 12:50:26",
+            "keyStrokeInfo": "",
+            "position": "54,1"
         }
     ]
 }
