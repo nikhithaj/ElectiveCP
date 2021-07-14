@@ -7,7 +7,8 @@
 def fun_eggcartons(eggs):
     
         if eggs==0:
-                  return 0
+                  return 0   #12%12==0  (1)    13//12=1 1+1=2 (2)
+                             #12//12=1
         if eggs%12==0:
                 return eggs//12
         else:
