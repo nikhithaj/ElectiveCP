@@ -4,6 +4,13 @@
 # if x is less than the lower bound, return the lower bound, 
 # or if x is greater than the upper bound, return the upper bound.
 
-def fun_getinrange(x, bound1, bound2):
-	# your code goes here
-	return -1
+def fun_getinrange(x, b1, b2):
+	c=(b1,b2)
+	if x<min(c):
+		return min(c)
+	elif x>max(c):
+		return max(c)
+	else:
+		return x
+
+ 
