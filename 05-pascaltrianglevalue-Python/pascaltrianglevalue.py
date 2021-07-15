@@ -20,4 +20,4 @@ def fun_pascaltrianglevalue(row, col):
 		return 0
 	else:
 		return None
-	return 1
+	

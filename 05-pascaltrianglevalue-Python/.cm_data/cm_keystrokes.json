@@ -97,6 +97,13 @@
             "keyStrokeTimeStamp": "Wed Jul 14 2021 12:35:55",
             "keyStrokeInfo": "h",
             "position": "10,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:55:25",
+            "keyStrokeInfo": "",
+            "position": "23,2"
         }
     ]
 }
