@@ -1,0 +1,32 @@
+{
+    "isevenpositiveint.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 12:44:58",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "7,26"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 12:44:58",
+            "keyStrokeInfo": "def isevenpositiveint(x):\r\n    if isinstance(x, int) and x%2==0 and x>0:\r\n        return True\r\n    else:\r\n        return False",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 12:45:01",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 12:45:03",
+            "keyStrokeInfo": "",
+            "position": "13,2"
+        }
+    ]
+}
