@@ -1,0 +1,25 @@
+{
+    "get_kth_digit.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 11:44:01",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "8,33"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 11:44:02",
+            "keyStrokeInfo": "return (abs(digit)//(10**(k))%10)",
+            "position": "9,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 11:44:05",
+            "keyStrokeInfo": "",
+            "position": "10,2"
+        }
+    ]
+}
