@@ -1,0 +1,88 @@
+{
+    "isperfectsquare.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:16:09",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "6,24"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:16:19",
+            "keyStrokeInfo": "import math\r\ndef isPerfectSquare(n):\r\n    s=math.sqrt(abs(n))\r\n    return (n == (s**2))\r\nprint(isPerfectSquare(int(input())))\r\n",
+            "position": "7,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:16:28",
+            "keyStrokeInfo": "",
+            "position": "5,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:16:29",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:16:33",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:16:59",
+            "keyStrokeInfo": "    ",
+            "position": "8,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:17:53",
+            "keyStrokeInfo": "# ",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:18:11",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:18:14",
+            "keyStrokeInfo": "    ",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:18:15",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:18:16",
+            "keyStrokeInfo": "",
+            "position": "8,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 16:18:16",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "8,24"
+        }
+    ]
+}
