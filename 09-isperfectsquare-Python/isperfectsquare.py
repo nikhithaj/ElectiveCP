@@ -5,7 +5,11 @@
 
 
 
-
+import math
+def isPerfectSquare(n):
+    s=math.sqrt(abs(n))
+    return (n == (s**2))
+isPerfectSquare(int(input()))
 
 
 
