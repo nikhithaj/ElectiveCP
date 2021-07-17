@@ -22,7 +22,10 @@
 #   [ 0, 1, 3] ]
 
 def removeRowAndCol(L, row, col):
-    # Your code goes here...
-    pass
+    L.pop(row)
+    for i in range(len(L)):
+        L(i).pop(col)
+    print(L)    
+        
 
 # Write your own test cases.
