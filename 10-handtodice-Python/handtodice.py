@@ -10,4 +10,4 @@ def handtodice(hand):
     seconddigit=(hand%100) // 10
     thirddigit=(hand%10) 
     return firstdigit,seconddigit,thirddigit
-pass
+
