@@ -19,3 +19,4 @@ class Queue:
     def dequeue(self):
        
         return self.storage.pop(0)
+    
