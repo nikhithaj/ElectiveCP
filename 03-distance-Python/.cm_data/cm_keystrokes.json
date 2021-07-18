@@ -300,6 +300,13 @@
             "keyStrokeTimeStamp": "Mon Jul 12 2021 21:46:07",
             "keyStrokeInfo": "\r\n    ",
             "position": "8,61"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 18 2021 21:58:48",
+            "keyStrokeInfo": "",
+            "position": "10,2"
         }
     ]
 }
