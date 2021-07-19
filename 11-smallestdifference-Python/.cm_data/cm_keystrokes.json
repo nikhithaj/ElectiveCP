@@ -1,0 +1,53 @@
+{
+    "smallestdifference.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:41:58",
+            "keyStrokeInfo": "\r\n",
+            "position": "9,6"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:41:59",
+            "keyStrokeInfo": "def readArray():\r\n    s = input().split(\" \")\r\n    l = []\r\n    for i in s:\r\n        if len(i) != 0:\r\n            l.append(int(i))\r\n    return l\r\n\r\ndef smallestDifference(a):\r\n    if(a==[]):\r\n        return(-1)\r\n    d=10**20\r\n    for i in range(len(a)-1):\r\n        for j in range(i+1,len(a)):\r\n            if(abs(a[i]-a[j])<d):\r\n                d=abs(a[i]-a[j])\r\n    return (d)\r\n    \r\nprint(smallestDifference(readArray()))",
+            "position": "10,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:42:05",
+            "keyStrokeInfo": "# ",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:42:07",
+            "keyStrokeInfo": "",
+            "position": "18,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:42:08",
+            "keyStrokeInfo": "d",
+            "position": "18,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:42:15",
+            "keyStrokeInfo": "",
+            "position": "28,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:43:10",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        }
+    ]
+}
