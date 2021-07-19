@@ -1,0 +1,39 @@
+{
+    "fabricyards.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:34:34",
+            "keyStrokeInfo": "\r\n",
+            "position": "21,10"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:34:35",
+            "keyStrokeInfo": "\r\ndef fabricYards(inches):\r\n    if (inches%36==0):\r\n        yards=inches//36\r\n    else:\r\n        yards=(inches//36)+1\r\n    return yards\r\nprint(fabricYards(int(input())))",
+            "position": "22,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:34:42",
+            "keyStrokeInfo": "# ",
+            "position": "21,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:35:19",
+            "keyStrokeInfo": "",
+            "position": "23,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:35:22",
+            "keyStrokeInfo": "",
+            "position": "15,1"
+        }
+    ]
+}
