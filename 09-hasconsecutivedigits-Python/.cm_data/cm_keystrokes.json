@@ -1,0 +1,18 @@
+{
+    "hasconsecutivedigits.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:49:51",
+            "keyStrokeInfo": "",
+            "position": "5,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 12:49:51",
+            "keyStrokeInfo": "def hasconsecutivedigits(n):\r\n\t# your code goes here\r\n\t\r\n    n = abs(n)\r\n    prevDigit = -1\r\n    while (n > 0):\r\n        onesDigit = n%10\r\n        n //= 10\r\n        if (prevDigit == onesDigit):\r\n            return True\r\n        prevDigit = onesDigit\r\n    return False",
+            "position": "5,1"
+        }
+    ]
+}
