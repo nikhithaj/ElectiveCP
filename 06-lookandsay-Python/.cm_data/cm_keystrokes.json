@@ -1,0 +1,88 @@
+{
+    "lookandsay.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:36:51",
+            "keyStrokeInfo": "\r\n",
+            "position": "14,6"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 29,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:36:51",
+            "keyStrokeInfo": "def readArray():\r\n    a = []\r\n    l = int(input())\r\n    for i in range(l):\r\n        a.append(int(input()))\r\n    return a\r\n\r\ndef lookAndSay(a):\r\n    # your code goes here\r\n    e=[]\r\n    f=[]\r\n    g=0\r\n    cou=1\r\n    if(len(a)==0):\r\n        return e\r\n    for i in a:\r\n        if(i!=g):\r\n            e.append((cou,g))\r\n            g=i\r\n            cou=1\r\n        else:\r\n            cou=cou+1\r\n            \r\n    e.append((cou,i)) \r\n             \r\n    return e[1:]\r\n\r\n\r\nprint(lookAndSay(readArray()))",
+            "position": "15,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:36:56",
+            "keyStrokeInfo": "# ",
+            "position": "12,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:37:23",
+            "keyStrokeInfo": "# ",
+            "position": "20,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:37:33",
+            "keyStrokeInfo": "",
+            "position": "15,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:37:41",
+            "keyStrokeInfo": "# ",
+            "position": "43,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:38:05",
+            "keyStrokeInfo": "",
+            "position": "22,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:38:05",
+            "keyStrokeInfo": "a",
+            "position": "22,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:38:18",
+            "keyStrokeInfo": "",
+            "position": "22,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:38:19",
+            "keyStrokeInfo": "s",
+            "position": "22,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:38:31",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:38:37",
+            "keyStrokeInfo": "",
+            "position": "41,1"
+        }
+    ]
+}
