@@ -6,11 +6,19 @@
 
 
 import math
-def isPerfectSquare(n):
-    s=math.sqrt(abs(n))
-    return (n == (s**2))
-isPerfectSquare(int(input()))
-
+def isperfectsquare(n):
+  #n=int(n)
+  if isinstance(n, int) and n>=0:
+    return n == (math.sqrt(n)**2)
+  elif isinstance(n, int) and  n<=0:
+    return False
+  elif isinstance(n, float):
+    return False
+  elif n.isdigit():
+    n=int(n)
+    return n == (math.sqrt(n)**2)
+  else:
+    return False
 
 
 

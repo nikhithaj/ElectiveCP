@@ -2001,6 +2001,27 @@
             "keyStrokeTimeStamp": "Sat Jul 17 2021 14:08:52",
             "keyStrokeInfo": "()",
             "position": "12,26"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 14:09:08",
+            "keyStrokeInfo": "# ",
+            "position": "12,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 14:09:10",
+            "keyStrokeInfo": "import math\r\ndef isperfectsquare(n):\r\n  #n=int(n)\r\n  if isinstance(n, int) and n>=0:\r\n    return n == (math.sqrt(n)**2)\r\n  elif isinstance(n, int) and  n<=0:\r\n    return False\r\n  elif isinstance(n, float):\r\n    return False\r\n  elif n.isdigit():\r\n    n=int(n)\r\n    return n == (math.sqrt(n)**2)\r\n  else:\r\n    return False",
+            "position": "13,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 14:09:13",
+            "keyStrokeInfo": "",
+            "position": "7,1"
         }
     ]
 }
