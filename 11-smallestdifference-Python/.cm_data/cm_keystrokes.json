@@ -48,6 +48,55 @@
             "keyStrokeTimeStamp": "Mon Jul 19 2021 20:43:10",
             "keyStrokeInfo": "",
             "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 11:56:34",
+            "keyStrokeInfo": "# ",
+            "position": "14,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 11:56:56",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 11:56:56",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:01:56",
+            "keyStrokeInfo": "def smallestdifference(a):\r\n    \r\n    length = len(a)\r\n    a.sort()\r\n    sol1=a[0]\r\n    sol2=a[1]\r\n    sub=sol2-sol1\r\n    return sub\r\n",
+            "position": "17,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:01:59",
+            "keyStrokeInfo": "# ",
+            "position": "15,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:02:29",
+            "keyStrokeInfo": "",
+            "position": "17,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:02:31",
+            "keyStrokeInfo": "",
+            "position": "7,1"
         }
     ]
 }
