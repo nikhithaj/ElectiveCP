@@ -279,6 +279,195 @@
             "keyStrokeTimeStamp": "Tue Jul 20 2021 10:33:56",
             "keyStrokeInfo": "",
             "position": "13,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:12",
+            "keyStrokeInfo": "def numberofpoolballs(balls):\r\n\r\n    l=list()\r\n    for i in range(rows):\r\n        if i<=rows:\r\n    for i in range(balls+1):\r\n        if i<=balls:\r\n            l.append(i)\r\n            s=sum(l)\r\n    return s",
+            "position": "13,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:14",
+            "keyStrokeInfo": "",
+            "position": "13,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:18",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:53",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:55",
+            "keyStrokeInfo": "",
+            "position": "13,23"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:56",
+            "keyStrokeInfo": "",
+            "position": "13,22"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:56",
+            "keyStrokeInfo": "",
+            "position": "13,21"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:56",
+            "keyStrokeInfo": "",
+            "position": "13,20"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:57",
+            "keyStrokeInfo": "b",
+            "position": "13,20"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:57",
+            "keyStrokeInfo": "a",
+            "position": "13,21"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:57",
+            "keyStrokeInfo": "l",
+            "position": "13,22"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:57",
+            "keyStrokeInfo": "l",
+            "position": "13,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:57",
+            "keyStrokeInfo": "s",
+            "position": "13,24"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:59",
+            "keyStrokeInfo": "",
+            "position": "14,18"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:59",
+            "keyStrokeInfo": "",
+            "position": "14,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:08:59",
+            "keyStrokeInfo": "",
+            "position": "14,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:00",
+            "keyStrokeInfo": "",
+            "position": "14,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:00",
+            "keyStrokeInfo": "b",
+            "position": "14,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:01",
+            "keyStrokeInfo": "a",
+            "position": "14,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:01",
+            "keyStrokeInfo": "l",
+            "position": "14,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:01",
+            "keyStrokeInfo": "l",
+            "position": "14,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:01",
+            "keyStrokeInfo": "s",
+            "position": "14,19"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:19",
+            "keyStrokeInfo": "",
+            "position": "14,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:20",
+            "keyStrokeInfo": "rows",
+            "position": "14,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:20",
+            "keyStrokeInfo": "",
+            "position": "13,20"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:21",
+            "keyStrokeInfo": "rows",
+            "position": "13,20"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 12:09:30",
+            "keyStrokeInfo": "",
+            "position": "13,3"
         }
     ]
 }
