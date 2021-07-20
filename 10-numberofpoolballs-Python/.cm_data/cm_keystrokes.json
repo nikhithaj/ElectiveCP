@@ -1,0 +1,88 @@
+{
+    "numberofpoolballs.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:28:16",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "10,29"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:28:17",
+            "keyStrokeInfo": "def numberofpoolballs(balls):\r\n\r\n    l=list()\r\n    for i in range(rows):\r\n        if i<=rows:\r\n    for i in range(balls+1):\r\n        if i<=balls:\r\n            l.append(i)\r\n            s=sum(l)\r\n    return s\r\n",
+            "position": "11,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:28:19",
+            "keyStrokeInfo": "",
+            "position": "22,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:28:23",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:28:58",
+            "keyStrokeInfo": "# ",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:29:07",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:29:10",
+            "keyStrokeInfo": "# ",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:29:30",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:29:30",
+            "keyStrokeInfo": "    ",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:29:31",
+            "keyStrokeInfo": "# Your code goes here\r\n\tpass",
+            "position": "22,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:29:31",
+            "keyStrokeInfo": "",
+            "position": "11,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 22:29:33",
+            "keyStrokeInfo": "",
+            "position": "10,29"
+        }
+    ]
+}
