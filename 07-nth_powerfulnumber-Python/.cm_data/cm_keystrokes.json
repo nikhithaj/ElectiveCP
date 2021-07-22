@@ -1,0 +1,116 @@
+{
+    "nthpowerfulnumber.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:56:25",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "8,26"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:56:26",
+            "keyStrokeInfo": "import math\r\n\r\ndef isPowerful(n):\r\n    while (n % 2 == 0):\r\n        a = 0\r\n        while (n % 2 == 0):\r\n            n = n // 2\r\n            a = a + 1\r\n        if ( a == 1):\r\n            return False\r\n    for power in range(3, int(math.sqrt(n))+1, 2):\r\n        a = 0\r\n        while (n % power == 0):\r\n            n = n // power\r\n            a = a + 1\r\n        if (a == 1):\r\n            return False\r\n    return (n == 1)\r\n\r\ndef nthPowerfulNumber(n):\r\n    found = 0\r\n    guess = 0\r\n    while (found <= abs(n)):\r\n        guess += 1\r\n        if(isPowerful(guess)):\r\n            found += 1\r\n    return guess",
+            "position": "9,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:56:34",
+            "keyStrokeInfo": "# ",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:56:39",
+            "keyStrokeInfo": "",
+            "position": "36,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:15",
+            "keyStrokeInfo": "",
+            "position": "28,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:15",
+            "keyStrokeInfo": "p",
+            "position": "28,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:19",
+            "keyStrokeInfo": "",
+            "position": "28,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:19",
+            "keyStrokeInfo": "n",
+            "position": "28,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:30",
+            "keyStrokeInfo": "",
+            "position": "9,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:31",
+            "keyStrokeInfo": "",
+            "position": "9,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:31",
+            "keyStrokeInfo": "",
+            "position": "9,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:31",
+            "keyStrokeInfo": "",
+            "position": "9,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:31",
+            "keyStrokeInfo": "",
+            "position": "9,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:32",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:58",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 12:57:58",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        }
+    ]
+}
