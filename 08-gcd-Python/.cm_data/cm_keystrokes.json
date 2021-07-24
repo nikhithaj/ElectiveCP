@@ -1,0 +1,32 @@
+{
+    "gcd.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 24 2021 15:11:11",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "11,15"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Sat Jul 24 2021 15:11:21",
+            "keyStrokeInfo": " if n==0:\r\n        return m\r\n    else:\r\n        return gcd(n,m%n)",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 24 2021 15:11:23",
+            "keyStrokeInfo": "",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Jul 24 2021 15:11:26",
+            "keyStrokeInfo": "",
+            "position": "16,1"
+        }
+    ]
+}
