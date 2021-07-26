@@ -1,0 +1,39 @@
+{
+    "nth_happy_number.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:28:23",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "18,25"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:28:24",
+            "keyStrokeInfo": "def Happynum(n):\r\n    sum = 0\r\n    while(n!=0):\r\n        sum += (n%10)**2\r\n        n//=10\r\n    if sum == 1:\r\n        return True\r\n    elif sum<10:\r\n        return False\r\n    else:\r\n        return Happynum(sum)\r\ndef nth_happy_number(n):\r\n    f = 1\r\n    g = 0\r\n    while(f<=abs(n)):\r\n        g+=1\r\n        if(Happynum(g)):\r\n            f+=1\r\n    return g",
+            "position": "19,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:28:29",
+            "keyStrokeInfo": "",
+            "position": "17,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:28:31",
+            "keyStrokeInfo": "",
+            "position": "37,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:28:35",
+            "keyStrokeInfo": "",
+            "position": "18,1"
+        }
+    ]
+}
