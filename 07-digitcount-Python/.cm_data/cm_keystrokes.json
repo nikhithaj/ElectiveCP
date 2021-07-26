@@ -1147,6 +1147,20 @@
             "keyStrokeTimeStamp": "Wed Jul 21 2021 23:50:38",
             "keyStrokeInfo": "/",
             "position": "11,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:11:14",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:11:14",
+            "keyStrokeInfo": "def digitcount(n):\r\n    n=abs(n)\r\n    c=0\r\n    if(n==0):\r\n        return 1\r\n    else:\r\n        while (n>0):\r\n            n//=10\r\n            c+=1\r\n        return c",
+            "position": "8,1"
         }
     ]
 }
