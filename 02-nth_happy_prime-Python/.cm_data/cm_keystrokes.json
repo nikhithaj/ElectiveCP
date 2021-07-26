@@ -1,0 +1,53 @@
+{
+    "nth_happy_prime.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:16:22",
+            "keyStrokeInfo": "\r\n",
+            "position": "8,10"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 56,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:16:22",
+            "keyStrokeInfo": "\r\n\r\ndef isPrime(n):\r\n    if (n < 2):\r\n        return False\r\n    if (n == 2):\r\n        return True\r\n    if (n % 2 == 0):\r\n        return False\r\n    maxFactor = round(n**0.5)\r\n    for factor in range(3,maxFactor+1,2):\r\n        if (n % factor == 0):\r\n            return False\r\n    return True\r\n#helper function to find the squares of digits\r\ndef numSquareSum(n): \r\n    squareSum = 0; \r\n    while(n): \r\n        squareSum += (n % 10) * (n % 10); \r\n        n = int(n / 10); \r\n    return squareSum; \r\n  \r\n#to find out if it is a happy number or not\r\ndef isHappynumber(n): \r\n  \r\n\r\n    slow = n; \r\n    fast = n; \r\n    while(True): \r\n          \r\n    \r\n   \r\n        slow = numSquareSum(slow); \r\n\r\n        fast = numSquareSum(numSquareSum(fast)); \r\n        if(slow != fast): \r\n            continue; \r\n        else: \r\n            break; \r\n  \r\n\r\n    return (slow == 1); \r\n#finding nth happy primes\r\n\r\ndef nthHappyPrime(n):\r\n    found = 0\r\n    guess = 0\r\n    while (found <= n):\r\n        guess += 1\r\n        #print(guess)\r\n        if ((isHappynumber(guess)) and (isPrime(guess))):\r\n            found += 1\r\n            #print(guess)\r\n    return guess\r\n\r\n\r\n\r\nprint(nthHappyPrime(int(input())))",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:16:32",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:16:45",
+            "keyStrokeInfo": "",
+            "position": "50,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:16:45",
+            "keyStrokeInfo": "\r\ndef fun_nth_happy_prime(n):\r\n\treturn 0\r\n",
+            "position": "50,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:16:48",
+            "keyStrokeInfo": "",
+            "position": "52,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 10:16:56",
+            "keyStrokeInfo": "",
+            "position": "66,1"
+        }
+    ]
+}
