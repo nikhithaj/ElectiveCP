@@ -1,0 +1,88 @@
+{
+    "binarytree.py": [
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:01:35",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "15,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:01:36",
+            "keyStrokeInfo": " return self.preorder_search(self.root, find_val)",
+            "position": "16,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:01:39",
+            "keyStrokeInfo": "",
+            "position": "16,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:01:51",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "22,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:01:52",
+            "keyStrokeInfo": "  return self.preorder_print(self.root, \"\")[:-1]",
+            "position": "23,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:01:54",
+            "keyStrokeInfo": "",
+            "position": "23,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:13",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "30,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:14",
+            "keyStrokeInfo": "return start.value == find_val or self.preorder_search(start.left, find_val) or self.preorder_search(start.right, find_val) if start else False",
+            "position": "31,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:33",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "38,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:34",
+            "keyStrokeInfo": "     if start:\r\n            traversal += (str(start.value) + \"-\")\r\n            traversal = self.preorder_print(start.left, traversal)\r\n            traversal = self.preorder_print(start.right, traversal)\r\n        return traversal",
+            "position": "39,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:36",
+            "keyStrokeInfo": "",
+            "position": "39,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 15:02:40",
+            "keyStrokeInfo": "",
+            "position": "39,9"
+        }
+    ]
+}
