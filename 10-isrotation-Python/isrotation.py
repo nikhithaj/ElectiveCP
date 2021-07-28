@@ -6,6 +6,7 @@
 # is a rotation of itself.
 
 def isrotation(x, y):
+    res=x[2:]+x[0:2]
+    return (res==y)
 
 
- 
