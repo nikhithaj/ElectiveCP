@@ -1,0 +1,32 @@
+{
+    "isfactorish.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:47:27",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "14,24"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 23,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:47:37",
+            "keyStrokeInfo": "t = n\r\n    if (n < 0):\r\n        n = -n\r\n\r\n    if(noofDigits(n) != 3 ):\r\n        return False\r\n\r\n    d1 = n % 10\r\n    n = n // 10\r\n    d2 = n % 10\r\n    n = n // 10\r\n    d3 = n % 10\r\n\r\n    if(d1 == 0 or d2 == 0 and d3 == 0):\r\n        return(False)\r\n\r\n    elif(d1 == d2 or d2 == d3 or d3 == d1):\r\n        return(False)\r\n\r\n    elif(t%d1 == 0 and t%d2 == 0 and t%d3 == 0):\r\n        return True\r\n\r\n    return(False) \r\n",
+            "position": "15,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:47:41",
+            "keyStrokeInfo": "",
+            "position": "39,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:48:24",
+            "keyStrokeInfo": "def noofDigits(n):\r\n    c = 0\r\n    while(n > 0):\r\n        n = n//10\r\n        c += 1\r\n    return c\r\n",
+            "position": "13,1"
+        }
+    ]
+}
