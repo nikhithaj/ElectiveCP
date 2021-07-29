@@ -307,6 +307,34 @@
             "keyStrokeTimeStamp": "Wed Jul 28 2021 15:24:30",
             "keyStrokeInfo": "y",
             "position": "10,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:16:42",
+            "keyStrokeInfo": "# ",
+            "position": "9,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:16:44",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "8,22"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:17:17",
+            "keyStrokeInfo": "def isrotation(x, y):\r\n    s=str(x)\r\n    r=str(y)\r\n    rev=r[::-1]\r\n    if s==r:\r\n        return True\r\n    else:\r\n        \r\n        if len(s)==len(r):\r\n            res=s[len(s)-2:]+s[0:len(s)-2]\r\n            \r\n            if res==r:\r\n                return True\r\n            elif s==rev:\r\n                return True\r\n            else:\r\n                return False      \r\n        else:\r\n            return False",
+            "position": "9,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:17:20",
+            "keyStrokeInfo": "",
+            "position": "9,4"
         }
     ]
 }
