@@ -3,6 +3,22 @@
 # which is the value of the middle element, or the average of the two middle elements if there is no single middle 
 # element. If the list is empty, return None.
 
+
+def readArray():
+    a = []
+    l = int(input())
+    for i in range(l):
+        a.append(float(input()))
+    return a
+
 def median(a):
-	# your code goes here
-	pass
+    # your code goes here
+     n=len(a)
+     if n==0:
+          return None
+     a.sort()
+     if n%2!=0:
+         return float(a[n//2])
+     else:
+        return (a[n//2]+a[(n-1)//2])/2
+	
