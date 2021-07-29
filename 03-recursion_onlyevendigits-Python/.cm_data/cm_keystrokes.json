@@ -1,0 +1,39 @@
+{
+    "recursion_onlyevendigits.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:22:50",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "11,38"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:22:51",
+            "keyStrokeInfo": "def getEvenDigits(n,i=0,x=0):\r\n    if(n == 0):\r\n        return x\r\n    else:\r\n        rem = n%10\r\n        if(rem % 2 == 0):\r\n            x += rem*(10**(i))\r\n            i+=1 \r\n        return getEvenDigits(n//10,i,x)\r\n        \r\ndef onlyEvenDigitsHelper(l,res=[]):\r\n    if(l == []):\r\n        return res\r\n    else:\r\n        res.append(getEvenDigits(l[0]))\r\n        return onlyEvenDigitsHelper(l[1:],res)\r\n        \r\ndef fun_recursion_onlyevendigits(l): \r\n    if(l == []):\r\n        return []\r\n    return onlyEvenDigitsHelper(l,[])",
+            "position": "12,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:23:05",
+            "keyStrokeInfo": "# ",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:23:07",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 29 2021 14:24:52",
+            "keyStrokeInfo": "",
+            "position": "33,2"
+        }
+    ]
+}
