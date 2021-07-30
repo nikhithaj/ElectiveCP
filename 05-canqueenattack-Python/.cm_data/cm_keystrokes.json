@@ -1,0 +1,25 @@
+{
+    "canqueenattack.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 08:49:09",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "6,36"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 08:49:10",
+            "keyStrokeInfo": "if (qR == oR):\r\n        return True\r\n    \r\n    if qC == oC:\r\n        return True\r\n\r\n    if abs(qR - oR) == abs(qC - oC):\r\n        return True\r\n\r\n    return False",
+            "position": "7,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 08:49:12",
+            "keyStrokeInfo": "",
+            "position": "17,2"
+        }
+    ]
+}
