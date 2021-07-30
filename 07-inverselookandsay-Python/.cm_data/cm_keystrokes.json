@@ -1,0 +1,39 @@
+{
+    "inverselookandsay.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 08:45:39",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "23,26"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 08:45:48",
+            "keyStrokeInfo": "\tres=[]\r\n\tif a==[(),]:\r\n\t\treturn []\r\n\telse:\t\r\n\t\tfor i in a:\r\n\t\t\tres=res+[i[1]]*i[0]\r\n\treturn res",
+            "position": "24,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 08:46:11",
+            "keyStrokeInfo": "",
+            "position": "31,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 08:46:27",
+            "keyStrokeInfo": "\t\t",
+            "position": "30,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 08:46:34",
+            "keyStrokeInfo": "",
+            "position": "24,2"
+        }
+    ]
+}
