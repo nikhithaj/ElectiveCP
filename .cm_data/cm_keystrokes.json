@@ -1,0 +1,25 @@
+{
+    "non_destructive_remove_repeats.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:23:15",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "11,36"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:23:27",
+            "keyStrokeInfo": "res=[]\r\n    for i in range(len(L)):\r\n        if L[i] not in res:\r\n            res.append(L[i])\r\n    return res",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:23:30",
+            "keyStrokeInfo": "",
+            "position": "17,3"
+        }
+    ]
+}
