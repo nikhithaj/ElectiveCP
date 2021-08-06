@@ -1,0 +1,102 @@
+{
+    "movie_awards.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:36:43",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "19,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:36:45",
+            "keyStrokeInfo": "\\",
+            "position": "21,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:36:46",
+            "keyStrokeInfo": "",
+            "position": "21,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:36:48",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "19,31"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:36:50",
+            "keyStrokeInfo": "",
+            "position": "20,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:36:50",
+            "keyStrokeInfo": "",
+            "position": "20,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:36:51",
+            "keyStrokeInfo": "",
+            "position": "19,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:36:52",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "19,31"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:39:01",
+            "keyStrokeInfo": "",
+            "position": "20,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:39:01",
+            "keyStrokeInfo": "",
+            "position": "19,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:39:02",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "19,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:39:28",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "19,31"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:39:29",
+            "keyStrokeInfo": "def movieAwards(oscarResults):\r\n    # Your code goes here...\r\n    #pass\r\n    d={}\r\n    for i in oscarResults:\r\n        if i[1] not in d:\r\n            d[i[1]]=1\r\n        else:\r\n            d[i[1]]+=1\r\n    return d\r\n",
+            "position": "20,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:39:33",
+            "keyStrokeInfo": "",
+            "position": "20,5"
+        }
+    ]
+}
