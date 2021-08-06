@@ -1,0 +1,174 @@
+{
+    "nthwithproperty309.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:35",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "7,27"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 20,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:36",
+            "keyStrokeInfo": "def nthwithproperty309(n):\r\n   # Your code goes here\r\n   if(n == 0):\r\n       return 309\r\n   x = 1\r\n   y = 310\r\n   while(x<=n):\r\n       y+=1\r\n       if(withproperty(y)):\r\n           x+=1\r\n   return y\r\n \r\ndef withproperty(n):\r\n   power5 = str(n**5)\r\n   a = ['0','1','2','3','4','5','6','7','8','9']\r\n   for i in a:\r\n       if(i not in power5):\r\n           return False\r\n   return True\r\n______________________\r\n",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:40",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:40",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:41",
+            "keyStrokeInfo": "",
+            "position": "7,27"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:44",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:44",
+            "keyStrokeInfo": "",
+            "position": "7,27"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:45",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "7,27"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:48",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:48",
+            "keyStrokeInfo": "",
+            "position": "9,18"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:49",
+            "keyStrokeInfo": "\r\n   ",
+            "position": "9,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:53",
+            "keyStrokeInfo": " ",
+            "position": "10,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:54",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:56",
+            "keyStrokeInfo": "",
+            "position": "9,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:57",
+            "keyStrokeInfo": "\r\n   ",
+            "position": "9,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:09:58",
+            "keyStrokeInfo": " ",
+            "position": "10,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:10:00",
+            "keyStrokeInfo": " ",
+            "position": "11,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:10:02",
+            "keyStrokeInfo": " ",
+            "position": "12,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:10:07",
+            "keyStrokeInfo": " ",
+            "position": "16,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:10:11",
+            "keyStrokeInfo": "",
+            "position": "25,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:10:44",
+            "keyStrokeInfo": "",
+            "position": "25,1"
+        }
+    ],
+    "test_nthwithproperty309.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:12:20",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "7,39"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:12:21",
+            "keyStrokeInfo": "(0,309),\r\n\t(1,418),\r\n\t(2,462),\r\n\t(3,474),\r\n\t(4,575),\r\n\t(5,635),\r\n\t(6,662),\r\n\t(100,2014),\r\n\t(1000,7813)\r\n])\r\n",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 11:12:27",
+            "keyStrokeInfo": "",
+            "position": "19,1"
+        }
+    ]
+}
