@@ -1,0 +1,88 @@
+{
+    "nth_smithnumber.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:01",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "11,28"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 67,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:02",
+            "keyStrokeInfo": "import math\r\ndef fun_nth_smithnumber(n):\r\n   count=0\r\n   x=1\r\n   y = 0\r\n   while(n+1!=count):\r\n       if(isSmith(x)):\r\n           count+=1\r\n           y = x\r\n       x+=1\r\n   return y\r\n \r\ndef isPrime(n):\r\n   if (n < 2):\r\n       return False\r\n   if (n == 2):\r\n       return True\r\n   if (n % 2 == 0):\r\n       return False\r\n   maxFactor = round(n**0.5)\r\n   for factor in range(3,maxFactor+1,2):\r\n       if (n % factor == 0):\r\n           return False\r\n   return True\r\n \r\ndef isSmith(n):\r\n   if(isPrime(n)!=True):\r\n       k = n\r\n       factors = []\r\n       sumoffactors=0\r\n       sumofnumbers=0\r\n       rem=0\r\n       srem = 0\r\n       stotal = 0\r\n       x =0\r\n       z =0\r\n       ve = 0\r\n       ro = 0\r\n       if n==1:\r\n           return False\r\n       for i in range(2,(n//2) + 1):\r\n           if(isPrime(i)==True) and (n%i==0):\r\n               factors.append(i)\r\n          \r\n       for an in str(n):\r\n           ro+=int(an)\r\n      \r\n       li=[]\r\n       for i in factors:\r\n           while (k%i==0 and k!=0):\r\n               li.append(i)   \r\n               sumoffactors+=i\r\n               k=k//i\r\n      \r\n       e = 0       \r\n       for j in li:\r\n           if(j>9):\r\n               for d in str(j):\r\n                   e+=int(d)\r\n           else:\r\n               e+=j\r\n      \r\n       if(ro==e):\r\n           return True\r\n       else:\r\n      \r\n     return False\r\n\r\n",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:10",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:12",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:30",
+            "keyStrokeInfo": "",
+            "position": "79,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:34",
+            "keyStrokeInfo": "",
+            "position": "77,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:38",
+            "keyStrokeInfo": "",
+            "position": "77,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:38",
+            "keyStrokeInfo": "",
+            "position": "76,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:38",
+            "keyStrokeInfo": "",
+            "position": "76,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:39",
+            "keyStrokeInfo": "",
+            "position": "76,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:39",
+            "keyStrokeInfo": "",
+            "position": "75,13"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:37:40",
+            "keyStrokeInfo": "\r\n           ",
+            "position": "75,13"
+        }
+    ]
+}
