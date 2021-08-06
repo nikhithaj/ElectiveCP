@@ -5,4 +5,4 @@
 # sayHi(d2) # Hi, my name is Elf and I am 3 years old!
 
 class SayHi(Object):
-    pass
+   
