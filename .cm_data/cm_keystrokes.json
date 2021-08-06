@@ -1,0 +1,32 @@
+{
+    "LatinSquare.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 13:45:27",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "10,24"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 32,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 13:45:28",
+            "keyStrokeInfo": " x=[]\r\n    for i in range(len(l[0])):\r\n        if (l[0][i] not in x):\r\n            x.append(l[0][i])\r\n        else:\r\n            return False\r\n    for j in range(len(l)):#012\r\n        c=[]\r\n        r=[]\r\n        for k in range(len(l[j])):#0123\r\n            if l[j][k] not in x:\r\n                return False\r\n            else:\r\n                if l[k][j] not in c:\r\n                    c.append(l[k][j])\r\n                else:\r\n                    return False\r\n                if l[j][k] not in r:\r\n                    r.append(l[j][k])\r\n                else:\r\n                    return False\r\n        print('row',r)\r\n        print('col',c)\r\n                \r\n    return True    \r\n            \r\n    \r\n        \r\n           \r\n\r\nl=[[1,2,3],[1,2,3],[20,3,1]] \r\nprint(isLatinSquare(l))",
+            "position": "11,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 13:45:33",
+            "keyStrokeInfo": "",
+            "position": "11,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 13:45:40",
+            "keyStrokeInfo": "",
+            "position": "43,2"
+        }
+    ]
+}
